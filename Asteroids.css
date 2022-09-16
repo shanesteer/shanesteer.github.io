@@ -1,0 +1,236 @@
+body{
+    background: url(./Assets/Luffy.jpg);
+    background-repeat: no-repeat;  
+    background-attachment: fixed; 
+    background-size: cover;
+    overflow: auto;
+  }
+  
+  h1.Title{
+    font-size: 3em;
+    color: aliceblue;
+    padding: 15px;
+    margin-top: 10px;
+    font-family: monospace;   
+  }
+  
+  h1.Title{
+    text-align: center;
+  }
+  
+  h2.Title{
+    font-size: 1.5em;
+    color: aliceblue;
+    padding: 15px;
+    font-family: monospace;  
+    float: right;
+  }
+  
+  h2{
+    font-size: 2em;
+    color: aliceblue;
+    padding: 10px;
+    margin-top: 40px;
+    text-align: center;
+    font-family: monospace;
+  }
+  
+  #Links {
+      font-size: 1.5em;
+      color: yellow;
+      margin-top: 30px;
+      display: inline-block;
+      text-align: center;
+      font-family: monospace;
+  
+  }
+  
+  #Links2 {
+    color: yellow;
+    font-family: monospace;
+  }
+  
+    
+  h3{
+  
+    text-align: center;
+  }
+  
+  h4{
+    font-size: 3em;
+    margin-top: 50px;
+    text-align: center;
+    color: aliceblue;
+    font-family: monospace;
+  }
+  
+  p{
+    font-size: 2em;
+    margin-top: 10px;
+    margin-left: 70px;
+    margin-right: 70px;
+    text-align: center;
+    color: aliceblue;
+    font-family: monospace;
+  }
+  
+  .rectangletitle {
+    width: 30%;
+    background: #111;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    opacity: 0.95;
+  }
+  
+  .rectangletitle1 {
+    width: 30%;
+    background: #111;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    opacity: 0.95;
+  }
+  
+  .rectangleparagraph {
+    width: 75%;
+    background: #111;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    opacity: 0.95;
+  }
+
+  .rectangleparagraph .Image {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .rectangleimage {
+    width: 75%;
+    background: #111;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+    opacity: 0.95;
+  }
+  
+  /*--------------Navbar Content--------------*/
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: #111;  
+  }
+    
+  .navbar li {
+    float: left;
+    font-size: 150%;
+    font-family: monospace;
+  } 
+    
+  .navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 60px;
+    text-decoration: none;
+  }
+    
+  .navbar li a:hover {
+    background-color: gray;
+  }
+    
+  .navbar{
+    display: flex;
+    justify-content: center;
+    background-color: #111;
+    border-radius: 20%;
+  }
+  
+  .navbar .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 210px;
+    z-index: 1;
+  }
+  
+  .navbar .dropdown-content a {
+    color: white;
+    padding: 12px 12px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-family: monospace;
+    width: 210px;
+  }
+  
+  .navbar .dropdown-content a:hover {
+    background-color: #48008c;
+    width: 210px;
+    padding: 12px 12px;
+    border-top: 0.5px double;
+    border-bottom: 0.5px double;
+    border-left: 0.5px double;
+    border-right: 0.5px double;
+    border-radius: 0;
+  }
+  
+  .navbar .projects:hover .dropdown-content {
+    display: block;
+  }
+  
+  .Points li{
+    font-size: 2em;
+    text-align: center;
+    margin-left: 70px;
+    margin-right: 70px;
+    list-style-position: inside;
+    color: aliceblue;
+    font-family: monospace;
+  }
+  
+  
+  /*--------------Video Content--------------*/
+  video{
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .Video1{
+    margin-top: 50px;
+  }
+
+  #idLinkedInIcon {
+  
+    background-color:rgb(0, 102, 170);
+    border-radius:6px;
+    color:white;
+    cursor:pointer;
+    display:block;
+    font:bold 35px Arial, Helvetica, sans-serif;
+    height:40px;
+    margin-top:1px;
+    text-align:center;
+    width:40px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #idLinkedInIcon:hover {
+  
+    background-color:#06d;
+  
+  }
+  
+  footer {
+    margin-top: 30px;
+    border-radius: 20%;
+  }

@@ -231,6 +231,10 @@ p{
 
 }
 
+#idLinkedInIcon a{
+  color:white;
+}
+
 footer {
 
   margin-top: 30px;

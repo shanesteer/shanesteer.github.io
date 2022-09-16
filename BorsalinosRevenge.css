@@ -224,6 +224,10 @@ video{
   margin-right: auto;
 }
 
+#idLinkedInIcon a{
+  color:white;
+}
+
 #idLinkedInIcon:hover {
 
   background-color:#06d;
